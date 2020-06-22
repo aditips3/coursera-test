@@ -1,0 +1,128 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+
+}
+body{
+	 font-family: Comic Sans MS, Comic Sans, cursive;
+	 margin:0;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align:center;
+}
+section{float:left;margin-right:10px;}
+
+p {
+padding:10px;
+margin:0;
+}
+
+.container{
+border: none;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-lg-4{float:left;width:33.33%}
+section{
+border: 2px solid black;
+background-color: #959da5;
+width: 100%;
+height: auto;
+font-family: Comic Sans MS, Comic Sans, cursive;
+color: black;
+position: relative;
+overflow: auto;
+}
+.chicken{
+background-color:#cea0a5;
+color:black;
+border-left: 2px solid black; 
+border-bottom: 2px solid black; 
+text-align: center;
+width: 30%;
+margin-left: 70%;
+font-family: Comic Sans MS, Comic Sans, cursive;
+font-weight: bold;
+font-size: 125%;
+margin-bottom: 0;
+margin-top: 0;
+padding: 5px;
+}
+.beef{
+background-color:#A52A2A;
+color:black; 
+border-left: 2px solid black; 
+border-bottom: 2px solid black; 
+text-align: center;
+width: 30%;
+margin-left: 70%;
+font-family: Comic Sans MS, Comic Sans, cursive;
+font-weight: bold;
+font-size: 125%;
+margin-bottom: 0;
+margin-top: 0;
+padding: 5px;
+	}
+.sushi{
+	background-color:#ffea7f;
+color:black; 
+border-left: 2px solid black; 
+border-bottom: 2px solid black; 
+text-align: center;
+width: 30%;
+margin-left: 70%;
+font-family: Comic Sans MS, Comic Sans, cursive;
+font-weight: bold;
+font-size: 125%;
+margin-bottom: 0;
+margin-top: 0;
+padding: 5px;
+
+}
+.show{display:none;}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  h1{
+margin-bottom: 40px;
+text-align: center;
+margin-top: 30px;
+ text-align:center;
+  }
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+  margin-bottom: 15px;
+  text-align:center;
+}
+  .col-md-6 {
+   width: 50%;
+}
+.fullwidth {
+   width: 100%;
+}
+.show{display:contents;}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 320px) and (max-width: 767px) {
+ h1 {
+  margin-bottom: 15px;
+  text-align:center;
+}
+  .col-sm-12 {
+   width: 100%;
+}
+}
+
