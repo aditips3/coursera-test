@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+
+}
+body{
+	margin:0;
+}
+.navbar {
+    background-color:#61122f;
+    border-radius: 0;
+    border: 0;
+}
+#nav-list a {
+  color: #fff;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color:black;
+}
+
+.navbar-default .navbar-brand{
+	color:white;
+}
+
+.color{
+	background-color:#eee;
+	padding-left:60px;
+	padding-right:60px;
+	height:1000px;
+}
+#menu-categories-title{margin:30px;}
+#chicken-title{margin:10px;}
+.container-fluid .jumbotron{padding-top:15px;padding-left:30px;padding-right:30px;}
+.chicken, .beef, .sushi{background-color:#eee;}
