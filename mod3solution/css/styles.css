@@ -28,6 +28,7 @@ body{
 	padding-right:60px;
 	height:1000px;
 }
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{color:#fff;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff;}
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background-color:transparent;}
 #menu-categories-title{margin:30px;}
