@@ -19,7 +19,7 @@ $scope.feedYaakov = function () {
    if ($scope.name.length === 0 )
  {
 $scope.length = $scope.name.length;	
-  var totalNameValue =  "Enter first";
+  var totalNameValue =  "Please enter data first";
   $scope.class1="red";
   return totalNameValue;
  }
